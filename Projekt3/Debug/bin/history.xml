@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=Projekt3.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Projekt3 -TC:\CooCox\CoIDE\configuration\ProgramData\Projekt3/arm-gcc-link.ld -g">
+      <target file="Projekt3.elf" lastModified="1543529822e">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="15435297e4c"/>
+         <source file="..\obj\main.o" lastModified="15435297e92"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="15435297e9f"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="15435297ee5"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="15435297f41"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="1543529801f"/>
+      </target>
+   </processor>
+</history>

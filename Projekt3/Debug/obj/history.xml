@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.2 i686-w64-mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\ATR\Desktop\GITHUB\Systick1\cmsis_boot -I..\..\..\..\..\Users\ATR\Desktop\GITHUB\Systick1\cmsis_core -I..\..\..\..\..\Users\ATR\Desktop\GITHUB\Systick1 -I..\..\..\..\..\Users\ATR\Desktop\GITHUB -I..\..\..\..\..\Users\ATR\Desktop\GITHUB\Systick1\stm32_lib\inc -I..\..\..\..\..\Users\ATR\Desktop\GITHUB\Systick1\stm32_lib">
+      <target file="stm32f0xx_gpio.o" lastModified="15435297f41">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="1517b3c5410"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="1543529801f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="1517b3c5410"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="15435297e4c">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="1517b3c5410"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="15435297ee5">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="1517b3c5410"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="15435297e9f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1517b3c5410"/>
+      </target>
+      <target file="main.o" lastModified="15435297e92">
+         <source file="..\..\..\main.c" lastModified="15212d20523"/>
+      </target>
+   </processor>
+</history>
